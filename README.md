@@ -114,8 +114,8 @@ Classifies a headline as sarcastic or genuine.
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/YOUR_USERNAME/sarcasm-detector.git
-cd sarcasm-detector
+git clone https://github.com/winklethakur/sarcasm-detection-news-headlines.git
+cd sarcasm-detection-news-headlines
 ```
 
 **2. Install dependencies**
@@ -150,9 +150,9 @@ Original dataset by Rishabh Misra — [Download from Kaggle](https://www.kaggle.
 
 ## Live Demo
 
-Deployed on Render: `your-render-url-here`
+Deployed on Render: https://sarcasm-detection-news-headlines.onrender.com
 
-Swagger UI: `your-render-url-here/docs`
+Swagger UI: https://sarcasm-detection-news-headlines.onrender.com/docs
 
 ---
 
