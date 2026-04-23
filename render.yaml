@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: sarcasm-detection-news-headlines
+    runtime: python
+    pythonVersion: "3.12.3"
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn api.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: TF_CPP_MIN_LOG_LEVEL
+        value: "3"
+      - key: TF_ENABLE_ONEDNN_OPTS
+        value: "0"
+    plan: free
